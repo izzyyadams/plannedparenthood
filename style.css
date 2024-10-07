@@ -1,0 +1,207 @@
+
+/*home*/
+.homePage {
+	background-color: rgb(240, 230, 239);
+	color: rgb(160, 22, 65);
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+#mainButton {
+	background-color: rgba(255,128,154,255);
+	border: none;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	color: rgb(255, 255, 255);
+	border-radius: 75%;
+	font-size: 25px;
+	padding: 40px;
+	cursor: pointer;
+	box-shadow: 0 9px rgb(156,60,87);
+
+}
+
+#mainButton:hover {
+	background-color: rgba(205,48,102,255);
+}
+
+#mainButton:active {
+	background-color: rgba(205,48,102,255);
+	box-shadow: 0 5px rgb(113,53,68);
+	transform: translateY(4px);
+}
+
+.container1 {
+	text-align: left;
+}
+
+.container2 {
+	text-align: center;
+}
+
+
+
+.femaleHolder {
+	height: auto;
+	display: inline-block;
+	width: 25%;               
+    float: left;              
+    box-sizing: border-box;
+    padding: 10px; 
+}
+
+
+
+.female {
+	width: 15%;
+	height: auto;
+}
+
+.title {
+	display: inline-block;
+}
+
+
+
+/*facts*/
+
+.factsPage {
+	background-color: rgb(202, 240, 248);
+}
+
+.involvedButton {
+	display: inline-block;
+}
+
+.linksButton {
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+	border-radius: 15px;
+	background-color: rgb(0, 119, 182);
+	color: white;
+	cursor: pointer;
+	border: none;
+	padding: 10px;
+	font-weight: 500;
+}
+
+.linksButton:hover {
+	background-color: rgb(3, 4, 94);
+}
+
+.homeButtonContainer {
+	text-align: right;
+	float: right;
+}
+
+.homeButton {
+	display: inline-block;
+}
+
+
+.icon {
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	cursor: pointer;
+}
+
+.icon img {
+	width: 50px;
+	height: auto;
+}
+
+.factsContainer {
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	
+
+}
+
+.factsHeading {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	color: rgb(3, 4, 94);
+
+}
+
+.factsp {
+	margin-top: 50px;
+	font-size: 25px;
+	font-weight: 500;
+
+}
+
+.parenthesis {
+	font-weight: 600;
+	color: rgb(3, 4, 94);;
+}
+
+.logoHolder {
+	display: inline-block;
+	width: 100px;
+	height: auto;
+	margin-right: 40px;
+	margin-left: 60px;
+	margin-top: 25px;
+}
+
+.logo {
+	width: 100%;
+	height: auto;
+}
+
+/*resources*/
+.resourcesPage {
+	background-color: rgb(224, 170, 255);
+}
+
+
+.factsButtonContainer {
+	display: inline-block;
+}
+
+.factsButton {
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+	border-radius: 15px;
+	background-color: rgb(123, 44, 191);
+	color: white;
+	cursor: pointer;
+	border: none;
+	padding: 10px;
+	font-weight: 500;
+}
+
+.factsButton:hover {
+	background-color: rgb(60, 9, 108);
+}
+
+.resourcesHead {
+	color: rgb(60, 9, 108);
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+}
+
+.resourcesText {
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	font-size: 25px;
+	font-weight: 500;
+}
+
+a {
+	color: rgb(90, 24, 154);
+}
+
+a:visited {
+	color: rgb(36, 0, 70);
+}
+
+.healthcare {
+	width: 100px;
+	height: auto;
+	margin: 0 auto;
+}
